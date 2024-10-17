@@ -1,0 +1,152 @@
+
+.bgcontainer{
+    width: 100%;
+    height: 120vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/bg.jpg) ;
+    background-position: center;
+    background-size: cover;
+    padding-left: 9%;
+    padding-right: 9%;
+    box-sizing: border-box;
+  }
+  
+  .row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+  }
+  
+  .col{
+    flex-basis: 50%;
+  }
+  
+  .col h1{
+    color: #fff;
+    font-size: 70px;
+    line-height: 100px;
+    margin-bottom: auto;
+    text-shadow: 2px 2px 4px #000000;
+    text-transform: uppercase;
+  }
+  
+  .col h2{
+    color: #fff;
+    font-size: 35px;
+    line-height: 15px;
+    text-shadow: 2px 2px 4px #000000;
+    text-transform:initial;
+  }
+  
+  .col p{
+    color: #fff;
+    font-size: 33px;
+    line-height: 50px;
+    text-shadow: 2px 2px 4px #000000;
+    text-transform:initial;
+  }
+  
+  .col button{
+      width: 180px;
+      color: #000;
+      font-size: 15px;
+      padding: 15px;
+      background: #fff;
+      border: 0;
+      border-radius: 200px;
+      outline: none;
+      margin-top: 5px;
+      cursor:alias;
+  }
+  
+  .col button:hover{
+      background-color: #046daa;
+      color: white;
+  }
+  
+  .card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 1.0s;
+  } 
+  
+  .col .card h5{
+    font-size: 16px;
+    line-height: 10px;
+  }
+  
+  .col .card1 p{
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  .col .card2 p{
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  .col .card3 p{
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  .col .card4 p{
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  .col .card5 p{
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  .col .card6 p{
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  .card1{
+    background-image: url(../images/pic-1.png);
+  }
+  
+  .card2{
+    background-image: url(../images/pic-2.png);
+  }
+  
+  .card3{
+    background-image: url(../images/pic-3.png);
+  }
+  
+  .card4{
+    background-image: url(../images/pic-4.png);
+  }
+  
+  
+  .card:hover{
+    transform:translateY(-10px);
+  }
+  
+  .card h5{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+    font-size: 16px;
+  }
+  
+  .card p{
+    text-shadow: 0 0 15px #000;
+    font-size: 14px;
+  }
+  thead {
+    background-color: #333;
+    color: white;
+    font-size: 0.875rem;
+	text-transform: uppercase;
+	letter-spacing: 2%;
+  }

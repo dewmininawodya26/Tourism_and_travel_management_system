@@ -1,0 +1,154 @@
+
+
+.fbody {
+    display: grid;
+    justify-content: end;
+    align-content: end;
+    min-height: calc(100vh - 160px);
+    background: rgb(255, 255, 255);
+    padding: 50px;
+    overflow: auto; /* Add overflow to enable scrolling */
+  }
+  .footer {
+    margin-top: 10px;
+    position: relative;
+    width: 100%;
+    height: 160px;
+    padding: 10px 4px; /* Adjusted padding to keep it centered */
+    background: rgba(38, 53, 134, 0.5);
+  }
+  .fcontainer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+    grid-gap: 20px;
+  }
+  .fcontainer .logo {
+    position: relative;
+    width: 90px;
+    height: 90px;
+    top: 10px;
+    margin-left: 20px;
+  }
+  
+  .fcontainer .sec h3 {
+    position: relative;
+    top: 2px;
+    text-align: center;
+    margin-left: 31px;
+    font-size: larger;
+  }
+  .support {
+    font-weight: bold;
+    top: 2px;
+  }
+  
+  .Email {
+    position: relative;
+  }
+  
+  .Email button {
+    background: rgb(62, 61, 61);
+    border: 2px solid #fff;
+    color: white;
+    border-radius: 100px;
+    padding: 10px 30px;
+    font-size: 15px;
+    margin-top: 15px;
+  }
+  
+  .Email button:hover {
+    color: rgb(216, 13, 13);
+    background-color: white;
+  }
+  
+  ul.sci {
+    list-style: none; /* Remove bullets */
+    padding: 5; /* Remove default padding */
+    display: flex; /* Make the list items display horizontally */
+    align-items: center;
+}
+
+ul.sci li {
+    margin-right: 10px; /* Add some spacing between list items */
+}
+
+ul.sci a {
+    text-decoration: none; /* Remove underline from links */
+    color: #000; /* Change the link color (you can customize it) */
+}
+  
+  .sci li a i {
+    color: white;
+    font-size: 25px;
+  }
+  
+  .sci li a i:hover {
+    color: rgb(255, 0, 0);
+    background-color: white;
+    padding-left: 2px;
+  }
+  
+  .support {
+    position: relative;
+  }
+  
+  .support ul li {
+    list-style: none;
+  }
+  
+  .support ul li a {
+    color: #070707;
+    text-decoration: none;
+    margin-bottom: 15px;
+    display: inline-block;
+    font-family: sans-serif;
+    
+  }
+  
+  .support ul li a:hover {
+    color: blue;
+    padding-left: 2px;
+  }
+  
+  .contact {
+    position: relative;
+    
+  }
+  
+  .contact li {
+    display: grid;
+    grid-template-columns: 40px 2fr;
+    margin-bottom: 5px;
+    line-height: 5%;
+    
+  }
+  
+  .contact li span {
+    color: rgb(10, 10, 10);
+    font-size: 15px;
+    margin-top: 9px;
+    
+  }
+  
+  .contact li a {
+    color: #151414;
+    text-decoration: none;
+  }
+  
+  .contact li a:hover {
+    color: blue;
+    padding-left: 2px;
+  }
+  
+  .contact li span:hover {
+    color: blue;
+    padding-left: 2px;
+  }
+  
+  .copyrightText {
+    position: relative;
+    text-align: center; /* Center the copyright text */
+    margin-top: -50px; /* Adjust as needed */
+  }
+  
